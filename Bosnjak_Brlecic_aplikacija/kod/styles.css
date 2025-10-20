@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.header h1 {
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    
+}
+
+.profile h2{
+font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    
+}
+
+.nav a {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #696969;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: "Roboto";
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+
+.profile img {
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.profile p {
+    flex: 1;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ccd7db;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.category {
+    display: flex;
+    align-items: center;
+    
+}
+.category img {
+    margin-right: 10px;
+}
+.movies {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+.movie {
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.movies p{
+    text-align: justify;
+}
+.movie img {
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.movie.grey-bg {
+    background-color: #ccd7db;
+    
+}
+.movie.blue-bg {
+    background-color: #ccd7db;
+}
+.movie.red-bg {
+    background-color: #ccd7db;
+}
+.movie.orange-bg {
+    background-color: #ccd7db;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+.footer a {
+    margin: 0 10px;
+}
+.footer img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.contact-info {
+    background-color: #e0f7fa;
+    padding: 20px;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    background-color: #e1bee7;
+    padding: 20px;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #004d40;
+}
+
+.nav-pills .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.nav-pills .nav-link.active {
+    color: #ffffff;
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-8 {
+    text-align: justify;
+}
+
+#pills-home p {
+    text-align: justify;
+}
+
+#pills-profile p {
+    text-align: justify;
+}
+
+.category p {
+    
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movies h2{
+    font-weight: bold;
+}
