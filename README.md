@@ -16,5 +16,8 @@ The goal was to practice translating content into a clear and user-friendly web 
 - Basic UI logic
 
 ## Notes
-This project was created as part of a team-based academic assignment.
+This project was created as part of a team-based assignment focused on web and UI fundamentals.
+
+## Credits
+Developed in collaboration with Karlo Bošnjak.
 
