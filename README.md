@@ -2,6 +2,8 @@
 
 A simple portfolio website dedicated to Keanu Reeves, built using HTML and CSS.
 
+**[View live website](https://keanu-reeves-project.netlify.app/)**
+
 ## About the project
 This project focuses on creating a clean and structured portfolio-style website with an emphasis on layout, visual consistency, and basic usability principles.
 The goal was to practice translating content into a clear and user-friendly web interface.
